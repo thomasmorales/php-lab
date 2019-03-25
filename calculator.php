@@ -20,8 +20,23 @@ class Calculator
    print "\n";
    return $x + $y;
  }
+ function ope($operator){
+   if ($operator=='div'){
+     return "/";
+  if ($operator=='mul'){
+      return "*";
+  if ($operator=='sub'){
+      return "-";
+  if ($operator=='mul'){
+      return "*";
+   }
+ }
 }
-echo "<h1>resultat=$op($x,$y)";
+$calculator= new Calculator();
+$x= $_GET["x"];
+$y= $_GET["y"];
+$op= $_GET["op"];
+echo "<b style='font-size: 40px;'>".$x, $calculator->$op($x,$y)."</b>";
 ?>
 </body>
 </html>

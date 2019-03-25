@@ -20,7 +20,7 @@ class Calculator
    print "\n";
    return $x + $y;
  }
-
+}
 
 
 ?>

@@ -14,7 +14,7 @@ foreach ($names as $name) {
 }
 
 
-/*function sum($x, $y) {
+function sum($x, $y) {
 	print "\n";
 	return $x + $y;
 }
@@ -45,11 +45,8 @@ function div($x, $y) {
 
 echo div(5, 7);
 
-*/
-/**
- *
- */
- /*class Calculator
+
+ class Calculator
 {
 	function div($x, $y) {
 		print "\n";
@@ -78,7 +75,7 @@ $calculator = new Calculator();
 echo $calculator->sum(5, 7);
 echo $calculator->sub(8, 2);
 echo $calculator->mul(2, 5);
-echo $calculator->div(20, 4);*/
+echo $calculator->div(20, 4);
 
 
 ?>

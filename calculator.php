@@ -21,8 +21,7 @@ class Calculator
    return $x + $y;
  }
 }
-
-
+echo "<h1>resultat=$op($x,$y)";
 ?>
 </body>
 </html>
